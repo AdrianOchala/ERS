@@ -14,17 +14,21 @@ html, body {
 /* nawigacja*/
 .sidenav{
     height: 100%;
-    widtht: 200px;
+    width: 100px;
     position:fixed;
     z-index: 1;
     top:0;
     left:0;
     background-color:black;
     overflow-x:hidden;
+    transition: 1s;
 }
-
-
-
+.sidenav:hover{
+    width: 300px;
+    transition: 0.5s;
+}
+.sidenav span {display:none}
+.sidenav:hover span {display:inline;}
 
 /* Menu linki */
 .sidenav a {
