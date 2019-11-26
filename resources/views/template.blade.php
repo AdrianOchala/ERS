@@ -25,6 +25,9 @@
     <div class="wrapper content ">
 
         @include('menu')
+        <div class="header">
+            <img src="{{asset('img/logo.png')}}" alt="Logo">
+        </div>
         @yield('content')
 
         <div id="footer">

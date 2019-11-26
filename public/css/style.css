@@ -10,6 +10,10 @@ html, body {
 {
     text-align: center;
 }
+.header
+{
+    background-color: black;
+}
 
 /* nawigacja*/
 .sidenav{
@@ -25,16 +29,20 @@ html, body {
 }
 .sidenav:hover{
     width: 300px;
-    transition: 0.5s;
+    transition: 2.5s;
 }
-.sidenav span {display:none}
+.sidenav span {display:none;}
 .sidenav:hover span {display:inline;}
-
+.sidenav:hover a
+{
+    font-size: 25px;
+    transition: 2s;
+}
 /* Menu linki */
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 5px;
     color: #818181;
     display: block;
 }
