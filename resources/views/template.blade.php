@@ -23,9 +23,8 @@
 
     </div>
     <div class="wrapper content ">
-        przed
+
         @include('menu')
-        za
         @yield('content')
 
         <div id="footer">
