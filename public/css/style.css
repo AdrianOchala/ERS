@@ -25,18 +25,28 @@ html, body {
     left:0;
     background-color:black;
     overflow-x:hidden;
-    transition: 1s;
+    transition: 10ms;
+
 }
+/*Poszerza menu*/
 .sidenav:hover{
     width: 300px;
     transition: 2.5s;
 }
+/* Pokazuje i chowa to co jest w spanie */
 .sidenav span {display:none;}
 .sidenav:hover span {display:inline;}
+/*Powiększanie czcionki*/
 .sidenav:hover a
 {
     font-size: 25px;
     transition: 2s;
+}
+/*Podświetlenie wyboru w menu - opcional*/
+.sidenav a:hover
+{
+    color: black;
+    background-color: white;
 }
 /* Menu linki */
 .sidenav a {
