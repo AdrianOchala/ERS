@@ -26,7 +26,7 @@
 
         @include('menu')
         <div class="header">
-            <img src="{{asset('img/logo.png')}}" alt="Logo">
+            <img src="{{asset('img/logo.png')}}" alt="Logo" style="width: 70%; height: auto">
         </div>
         @yield('content')
 
