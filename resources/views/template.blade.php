@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -19,13 +20,12 @@
     </head>
     <body>
     <div>
-        Menu ok spoko
+
     </div>
     <div class="wrapper content ">
-        <div id="header">
-            <img src="{{asset("img/logo.png")}}">
-        </div>
-
+        przed
+        @include('menu')
+        za
         @yield('content')
 
         <div id="footer">
