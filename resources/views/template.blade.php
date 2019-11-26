@@ -18,9 +18,12 @@
         <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
     </head>
     <body>
+    <div>
+        Menu
+    </div>
     <div class="wrapper content ">
         <div id="header">
-
+            <img src="{{asset("img/logo.png")}}">
         </div>
 
         @yield('content')
