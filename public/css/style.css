@@ -13,6 +13,7 @@ html, body {
 .header
 {
     background-color: black;
+
 }
 
 /* nawigacja*/
@@ -64,7 +65,29 @@ html, body {
     height: 60px;
 }
 
+/*Pasek footer*/
 .footer
 {
-    position:fixed;
+    background-color: black;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    position: fixed;
+    color:white;
+
+    height: auto;
+}
+.footerIcon
+{
+    width: auto;
+    height: 40px;
+}
+#footer1
+{
+    line-height:20px;
+    font-family: 'Indie Flower', cursive;
+}
+.footer i
+{
+    font-size:25px;
 }

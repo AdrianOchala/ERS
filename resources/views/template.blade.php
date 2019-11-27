@@ -15,6 +15,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
         <!-- Styles -->
         <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -31,8 +32,36 @@
         </div>
         @yield('content')
 
-        <div id="footer">
-            Copyright by &copy Adrian Ochała & Dawid Szmidt & Szymon Wójcik
+        <div class="footer">
+            <div class="row">
+                <div id="footer1" class="col-lg-2">
+                    <img src="{{asset("img/transparentIconFooter.png")}}" class="footerIcon"><br>
+                    Speed. Passion. Love.
+
+
+                </div>
+                <div class="col-lg-2">
+                    <dt>Socials</dt>
+                    <div class="links">
+                    <a href="#"><i class='fab fa-facebook-square'></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class='fab fa-youtube'></i></a>
+                    <a href="#"><i class='fab fa-discord'></i></a>
+                    <a href="#"><i class='fab fa-twitch'></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                </div>
+
+                <div class="col-lg-4">
+
+                </div>
+            </div>
+
+
+           <small>Copyright by &copy Adrian Ochała & Dawid Szmidt & Szymon Wójcik</small>
         </div>
     </div>
     </body>

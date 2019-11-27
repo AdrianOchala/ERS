@@ -11,11 +11,4 @@
     <a href="#"><i class='fas fa-chalkboard-teacher'></i> <span>Społeczność</span></a>
     <a href="#"><i class='far fa-folder-open'></i> <span>Archiwum</span></a>
 
-<div class="links">
-    <a href="#"><i class='fab fa-facebook-square'></i></a>
-    <a href="#"><i class="fa fa-youtube"></i></a>
-    <a href="#"><i class='fab fa-youtube'></i></a>
-    <a href="#"><i class='fab fa-discord'></i></a>
-    <a href="#"><i class='fab fa-twitch'></i></a>
-</div>
 </div>
