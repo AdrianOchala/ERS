@@ -44,7 +44,6 @@
                     <dt>Socials</dt>
                     <div class="links">
                     <a href="#"><i class='fab fa-facebook-square'></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
                     <a href="#"><i class='fab fa-youtube'></i></a>
                     <a href="#"><i class='fab fa-discord'></i></a>
                     <a href="#"><i class='fab fa-twitch'></i></a>

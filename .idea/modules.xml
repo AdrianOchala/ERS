@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ERS.iml" filepath="$PROJECT_DIR$/.idea/ERS.iml" />
-      <module fileurl="file://C:/Termobudowa/.idea/Termobudowa.iml" filepath="C:/Termobudowa/.idea/Termobudowa.iml" />
     </modules>
   </component>
 </project>
