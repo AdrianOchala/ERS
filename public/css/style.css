@@ -18,15 +18,13 @@ html, body {
 /* nawigacja*/
 .sidenav{
     height: 100%;
-    width: 100px;
+    width: 60px;
     position:fixed;
-    z-index: 1;
     top:0;
     left:0;
     background-color:black;
     overflow-x:hidden;
     transition: 10ms;
-
 }
 /*Poszerza menu*/
 .sidenav:hover{
@@ -50,9 +48,18 @@ html, body {
 }
 /* Menu linki */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 6px;
     text-decoration: none;
     font-size: 5px;
     color: #818181;
     display: block;
+}
+.sidenav i
+{
+    font-size:25px;
+}
+.menuIcon
+{
+    width:60px;
+    height: 60px;
 }
