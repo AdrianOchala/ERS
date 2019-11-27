@@ -74,22 +74,23 @@ html, body {
     width: 100%;
     position: fixed;
     color:white;
-    height: auto;
 }
 .footerIcon
 {
     width: auto;
     height: 40px;
-
 }
 #footer1
 {
     color:#ff947e;
     line-height:20px;
     font-family: 'Indie Flower', cursive;
+    margin-top:auto;
+    margin-bottom:auto;
+
 }
 .footer i
 {
-    font-size:25px;
+    font-size:30px;
     color:gray;
 }

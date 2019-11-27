@@ -33,12 +33,10 @@
         @yield('content')
 
         <div class="footer">
-            <div class="row">
-                <div id="footer1" class="col-lg-2">
+            <div class="row ">
+                <div id="footer1" class="col-lg-3">
                     <img src="{{asset("img/transparentIconFooter.png")}}" class="footerIcon"><br>
                     Speed. Passion. Love.
-
-
                 </div>
                 <div class="col-lg-2">
                     <dt>Socials</dt>
@@ -54,7 +52,7 @@
 
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
 
                 </div>
             </div>
