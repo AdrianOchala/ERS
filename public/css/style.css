@@ -78,7 +78,7 @@ html, body {
 .footerIcon
 {
     width: auto;
-    height: 40px;
+    height: 50px;
 }
 #footer1
 {
@@ -91,6 +91,16 @@ html, body {
 }
 .footer i
 {
-    font-size:30px;
-    color:gray;
+    font-size:50px;
+    color:sienna;
 }
+.footer #podpis
+{
+    color:grey;
+    font-family: 'Coming Soon', cursive;
+}
+.footer #social
+{
+    font-family: 'Raleway', sans-serif;
+}
+
