@@ -38,7 +38,7 @@ html, body {
 .sidenav:hover a
 {
     font-size: 25px;
-    transition: 2s;
+    transition: 2.5s;
 }
 /*Podświetlenie wyboru w menu - opcional*/
 .sidenav a:hover
@@ -50,7 +50,7 @@ html, body {
 .sidenav a {
     padding: 6px 8px 6px 6px;
     text-decoration: none;
-    font-size: 5px;
+    font-size: 1px;
     color: #818181;
     display: block;
 }
