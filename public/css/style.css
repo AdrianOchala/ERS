@@ -78,7 +78,7 @@ html, body {
 .footerIcon
 {
     width: auto;
-    height: 50px;
+    height: 30px;
 }
 #footer1
 {
@@ -91,7 +91,7 @@ html, body {
 }
 .footer i
 {
-    font-size:50px;
+    font-size:30px;
     color:sienna;
 }
 .footer #podpis
@@ -103,4 +103,9 @@ html, body {
 {
     font-family: 'Raleway', sans-serif;
 }
-
+.odnosniki
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}

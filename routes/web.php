@@ -11,5 +11,11 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
-Route::get('/about','PagesController@about');
+Route::get('/home', 'PagesController@index');
+Route::get('/splits','PagesController@splits');
+Route::get('/ads','PagesController@ads');
+Route::get('/grafs','PagesController@grafs');
+Route::get('/calendar','PagesController@calendar');
+Route::get('/community','PagesController@community');
+Route::get('/archives','PagesController@archives');
+

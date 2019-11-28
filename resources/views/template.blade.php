@@ -25,13 +25,15 @@
     </head>
     <body>
     <div class="wrapper content ">
-
         @include('menu')
+
         <div class="header">
             <img src="{{asset('img/logo.png')}}" alt="Logo" style="width: 70%; height: auto">
         </div>
-        @yield('content')
-        @include('footer')
 
+        @yield('content')
+
+        @include('footer')
+    </div>
     </body>
 </html>
