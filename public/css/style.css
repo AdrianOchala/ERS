@@ -109,3 +109,10 @@ html, body {
     color: white;
     font-size: 25px;
 }
+
+/*Tabelki*/
+.grafs iframe
+{
+    height: 1000px;
+    width: 100%;
+}
