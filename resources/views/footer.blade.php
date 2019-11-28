@@ -3,7 +3,7 @@
     <div id="social" class="col-lg-12">
         <h5>Odwiedź nasze Social Media</h5>
     </div>
-    <div class="row ">
+    <div class="row">
         <div id="footer1" class="col-lg-3">
             <img src="{{asset("img/transparentIconFooter.png")}}" class="footerIcon"><br>
             <h4>Speed. Passion. Love.</h4>
@@ -31,5 +31,4 @@
     </div>
 
     <h8 id="podpis">Copyright by &copy NameInProgress</h8>
-</div>
 </div>

@@ -5,6 +5,7 @@ html, body {
     font-weight: 200;
     height: 100vh;
     margin: 0;
+    widows: 100%;
 }
 .content
 {
@@ -26,11 +27,13 @@ html, body {
     background-color:black;
     overflow-x:hidden;
     transition: 10ms;
+    z-index: 999;
 }
 /*Poszerza menu*/
 .sidenav:hover{
     width: 300px;
     transition: 2.5s;
+    z-index: 999;
 }
 /* Pokazuje i chowa to co jest w spanie */
 .sidenav span {display:none;}
@@ -69,11 +72,12 @@ html, body {
 .footer
 {
     background-color: black;
-    bottom: 0;
-    left:0;
     width: 100%;
-    position: fixed;
+    position: absolute;
+    clear: both;
     color:white;
+    bottom: 0;
+
 }
 .footerIcon
 {
@@ -115,4 +119,8 @@ iframe
 {
     height: 400px;
     width: 40%;
+}
+.row
+{
+    margin:auto!important;
 }
