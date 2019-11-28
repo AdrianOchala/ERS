@@ -1,8 +1,6 @@
 @extends('template')
 @section('content')
 
-    <h2>Terminarz</h2>
-
-    Esport Racing Series cyk
+    <img src="{{asset('img/terminy.png')}}" alt="Terminy">
 
 @stop
