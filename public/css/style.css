@@ -111,8 +111,8 @@ html, body {
 }
 
 /*Tabelki*/
-.grafs iframe
+iframe
 {
-    height: 1000px;
-    width: 100%;
+    height: 400px;
+    width: 40%;
 }
