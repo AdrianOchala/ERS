@@ -31,7 +31,7 @@
         @include('menu')
 
         <div class="header">
-            <img src="{{asset('img/logo.png')}}" alt="Logo" style="width: 70%; height: auto">
+            <a href="{{asset('/')}}"><img src="{{asset('img/logo.png')}}" alt="Logo" style="width: 70%; height: auto"></a>
         </div>
 
         @yield('content')
