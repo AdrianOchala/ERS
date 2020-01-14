@@ -131,7 +131,7 @@ iframe
     cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover {
     background-color: whitesmoke;
     color: black;
 }
