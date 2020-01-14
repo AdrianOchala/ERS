@@ -22,6 +22,9 @@
         <!-- Styles -->
         <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+        <!-- Facebook -->
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v5.0"></script>
     </head>
     <body>
     <div class="wrapper content ">
