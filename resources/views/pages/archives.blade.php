@@ -3,7 +3,6 @@
 <div class="contentArchives">
     <h2>Archiwum</h2>
 
-    Esport Racing Series cyk
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">SEZON 1</button>
         <div id="myDropdown" class="dropdown-content">
