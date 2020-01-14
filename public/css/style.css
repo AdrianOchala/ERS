@@ -28,8 +28,8 @@ html, body {
 }
 /*Poszerza menu*/
 .sidenav:hover{
-    width: 300px;
-    transition: 2.5s;
+    width: 230px;
+    transition: 1s;
     z-index: 999;
 }
 /* Pokazuje i chowa to co jest w spanie */
@@ -39,7 +39,7 @@ html, body {
 .sidenav:hover a
 {
     font-size: 25px;
-    transition: 2.5s;
+    transition: 1s;
 }
 /*Podświetlenie wyboru w menu - opcional*/
 .sidenav a:hover
@@ -57,12 +57,14 @@ html, body {
 }
 .sidenav i
 {
-    font-size:25px;
+    font-size:40px;
+    margin-bottom: 15px;
 }
 .menuIcon
 {
-    width:60px;
-    height: 60px;
+    width:65px;
+    height: 70px;
+    padding-right: 10px;
 }
 
 /*Pasek footer*/
