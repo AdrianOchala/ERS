@@ -73,7 +73,7 @@ html, body {
 {
     background-color: black;
     width: 100%;
-    position: absolute;
+    position: relative;
     clear: both;
     color:white;
     bottom: 0;
