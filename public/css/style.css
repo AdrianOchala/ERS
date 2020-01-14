@@ -5,7 +5,6 @@ html, body {
     font-weight: 200;
     height: 100%;
     margin: 0;
-
 }
 .content
 {
@@ -14,9 +13,7 @@ html, body {
 .header
 {
     background-color: black;
-
 }
-
 /* nawigacja*/
 .sidenav{
     height: 100%;
@@ -123,4 +120,50 @@ iframe
 .row
 {
     margin:auto!important;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white; !important;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: white;
+                    color: black;}
+
+.show {display: block;}
+.contentArchives
+{
+    padding-bottom: 20px;
 }
