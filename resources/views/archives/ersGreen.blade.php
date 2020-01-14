@@ -1,4 +1,4 @@
-@extends('template')
+@extends('archives.archivesTemplate')
 @section('content')
 
     <h2>ERS Green</h2>

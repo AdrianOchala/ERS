@@ -9,6 +9,7 @@ html, body {
 .content
 {
     text-align: center;
+
 }
 .header
 {
@@ -166,4 +167,8 @@ iframe
 .contentArchives
 {
     padding-bottom: 20px;
+}
+.splits
+{
+    height: 100%;
 }
