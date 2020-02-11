@@ -28,12 +28,12 @@
     </head>
     <body>
     <div class="wrapper content ">
-        @include('menu')
+
 
         <div class="header">
             <a href="{{asset('/')}}"><img src="{{asset('img/logo.png')}}" alt="Logo" style="width: 70%; height: auto"></a>
         </div>
-
+        @include('menu')
         @yield('content')
 
         @include('footer')

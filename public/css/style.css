@@ -173,3 +173,58 @@ iframe
 {
     height: 100%;
 }
+
+/*widok mobilny menu*/
+@media(max-width: 680px){
+    .sidenav{
+        display: none;
+    }
+    .sidenav__mobile{
+        background-color: black;
+        color:white;
+        word-spacing: 15px;
+        font-size: 15px;
+    }
+    .sidenav__mobile a{
+        text-decoration: none;
+        background-color: #000015;
+        color: white;
+        border-radius: 4px;
+    }
+    .sidenav__mobile a:hover{
+        background-color: grey;
+    }
+
+    .yt{
+        width: 400px;
+    }
+}
+@media(min-width: 950px){
+    .yt{
+    }
+}
+@media(max-width: 1055px){
+.terminy{
+    width: 800px;
+}
+}
+@media(max-width: 818px){
+    .terminy{
+        width: 650px;
+    }
+}
+
+@media(min-width: 680px){
+    .sidenav__mobile{
+    display:none;
+    }
+    .yt{
+        width: 600px;
+    }
+}
+
+@media(max-width: 540px){
+    .fb-page{
+        width: 300px;
+    }
+}
