@@ -11,11 +11,11 @@
         <div class="col-lg-9">
             <div id="social" class="row">
                 <div class="col-lg-3">
-                    <a href="#"><i class='fab fa-facebook-square'></i></a>
+                    <a href="https://www.facebook.com/Esport-Racing-Series-718667108536106/"><i class='fab fa-facebook-square'></i></a>
                     <br>Dołącz do naszej grupy!
                 </div>
                 <div class="col-lg-3">
-                    <a href="#"><i class='fab fa-youtube'></i></a>
+                    <a href="https://www.youtube.com/channel/UCKbNs1hnAeLs7iXTUfpE0Hw"><i class='fab fa-youtube'></i></a>
                     <br>Zajrzyj na poprzednie wyścigi
                 </div>
                 <div class="col-lg-3">
@@ -23,7 +23,7 @@
                     <br>Skontaktuj się z nami lub zapisz do ligi
                 </div>
                 <div class="col-lg-3">
-                    <a href="#"><i class='fab fa-twitch'></i></a>
+                    <a href="https://www.twitch.tv/esportracingseries/"><i class='fab fa-twitch'></i></a>
                     <br>Oglądaj nas na żywo
                 </div>
             </div>
