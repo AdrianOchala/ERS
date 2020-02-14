@@ -4,7 +4,10 @@
         <h5>Odwiedź nasze Social Media</h5>
     </div>
     <div class="row">
-        <div id="footer1" class="col-lg-3">
+        <div id="spacja" class="col-lg-1">
+
+        </div>
+        <div id="footer1" class="col-lg-2">
             <img src="{{asset("img/transparentIconFooter.png")}}" class="footerIcon"><br>
             <h4>Speed. Passion. Love.</h4>
         </div>
@@ -30,5 +33,5 @@
         </div>
     </div>
 
-    <h8 id="podpis">Copyright by &copy NameInProgress</h8>
+    <h8 id="podpis">Copyright by &copy Szymon Wójcik & Adrian Ochała</h8>
 </div>
