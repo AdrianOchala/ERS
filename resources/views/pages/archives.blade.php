@@ -2,7 +2,7 @@
 @section('content')
 
     @include('archives.buttons')
-
+</div>
 
 
 @stop

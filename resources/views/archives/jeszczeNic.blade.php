@@ -6,5 +6,5 @@
     <h2>Jeszcze nic</h2>
 
     Cyk pyk myk
-
+    </div>
 @stop
