@@ -208,12 +208,14 @@ iframe
 }
 @media(max-width: 1055px){
 .terminy{
-    width: 800px;
+    width: 100vh;
+    align-self: center;
 }
 }
 @media(max-width: 818px){
     .terminy{
-        width: 650px;
+        width: 70vh;
+        align-self: center;
     }
 }
 
