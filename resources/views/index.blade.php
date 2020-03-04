@@ -1,6 +1,6 @@
 @extends('template')
 @section('content')
-
+<div id="aktualnosci">
     <h2>Aktualności</h2>
     <div class="row">
         <div class="col-lg-12">
@@ -21,5 +21,6 @@
 
         </div>
     </div>
+</div>
 @stop
 

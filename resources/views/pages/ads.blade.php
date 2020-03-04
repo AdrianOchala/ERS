@@ -1,6 +1,6 @@
 @extends('template')
 @section('content')
-
+<div id="ogloszenia">
     <h2>Ogłoszenia</h2>
 
     Esport Racing Series cyk
